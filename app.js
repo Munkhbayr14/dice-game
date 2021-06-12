@@ -87,7 +87,7 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
       scores[activePlayer];
 
     // хэрвээ цуглуулсан оноо нь 100-аас их болчихвол ялна
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       //Тоглоомыг дууссан төлөвт оруулна
       isNewGame = false;
       // HMTL кодноос ID-г аван Player нэдэг үгийг WINNER Болгон өөрчилж  байна
